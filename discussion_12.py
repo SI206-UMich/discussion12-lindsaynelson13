@@ -53,8 +53,6 @@ def problematic_salary(cur, conn):
 
 # TASK 4: VISUALIZATION
 def visualization_salary_data(cur, conn):
-
-    
     pass
 
 class TestDiscussion12(unittest.TestCase):
