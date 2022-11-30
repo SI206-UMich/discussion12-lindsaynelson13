@@ -81,11 +81,8 @@ def main():
     # SETUP DATABASE AND TABLE
     cur, conn = setUpDatabase('HR.db')
     create_employee_table(cur, conn)
-
     add_employee("employee.json",cur, conn)
-
     job_and_hire_date(cur, conn)
-
     wrong_salary = (problematic_salary(cur, conn))
     print(wrong_salary)
 
